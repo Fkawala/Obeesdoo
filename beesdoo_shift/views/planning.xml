@@ -30,7 +30,7 @@
                     <div class="oe_button_box" name="button_box">
                         <button class="oe_stat_button" type="action"
                                 name="%(action_shift_template)d" icon="fa-book"
-                                string="Shifts Template">
+                                string="Shift Templates">
                         </button>
                     </div>
                     <div class="oe_title">
@@ -40,6 +40,7 @@
                     </div>
                     <group>
                         <field name="sequence"/>
+                        <field name="periodicity" />
                     </group>
                 </sheet>
             </form>
@@ -54,7 +55,7 @@
                 <field name="sequence"/>
                 <field name="name"/>
                 <button type="action" name="%(action_shift_template)d"
-                        string="Shifts Template"/>
+                        string="Shift Templates"/>
             </tree>
         </field>
     </record>
