@@ -313,7 +313,7 @@ class BeesdooProduct(models.Model):
                 )
 
                 if suppliers[0].product_tmpl_id.categ_id.should_round_suggested_price:
-                    product.suggested_price = product.suggested_price
+                    product.suggested_price = round_5c(product.suggested_price)
 
     @api.multi
     @api.depends("seller_ids")

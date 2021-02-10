@@ -166,8 +166,8 @@
         <field name="inherit_id" ref="product.product_category_list_view"/>
         <field name="arch" type="xml">
             <field name="display_name" position="after">
-                <field name="profit_margin"></field>
-                <field name="should_round_suggested_price"></field>
+                <field name="profit_margin"/>
+                <field name="should_round_suggested_price"/>
             </field>
         </field>
     </record>
@@ -178,8 +178,8 @@
         <field name="inherit_id" ref="product.product_category_form_view"/>
         <field name="arch" type="xml">
             <field name="parent_id" position="after">
-                <field name="profit_margin"></field>
-                <field name="should_round_suggested_price"></field>
+                <field name="profit_margin"/>
+                <field name="should_round_suggested_price"/>
             </field>
         </field>
     </record>
