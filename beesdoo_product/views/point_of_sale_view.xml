@@ -23,7 +23,7 @@
     <!-- menu item -->
     <menuitem id="menu_pos_edit_price"
               name="Edit Price"
-              parent="point_of_sale.menu_point_root"
+              parent="point_of_sale.pos_config_menu_catalog"
               sequence="100"
               action="pos_product_edit_price"/>
 

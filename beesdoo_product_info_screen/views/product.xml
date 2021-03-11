@@ -72,8 +72,14 @@
               action="action_product_information_tree"/>
 
     <menuitem id="menu_sale_product_info"
-              name="Product Info"
-              parent="sale.sale_menu_root"
+              name="Product Information"
+              parent="sale.product_menu_catalog"
+              sequence="200"
+              action="action_product_information_tree"/>
+
+    <menuitem id="menu_pos_product_info"
+              name="Product Information"
+              parent="point_of_sale.pos_config_menu_catalog"
               sequence="200"
               action="action_product_information_tree"/>
 
