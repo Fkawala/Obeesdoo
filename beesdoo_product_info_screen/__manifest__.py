@@ -1,5 +1,6 @@
 # Copyright 2021 Coop IT Easy SCRL fs
 #   Robin Keunen <robin@coopiteasy.be>
+#   Houssine Bakkali <houssine@coopiteasy.be>
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
 {
     "name": "Product Information Screen",
@@ -10,7 +11,11 @@
     "website": "https://www.coopiteasy.be",
     "license": "AGPL-3",
     "depends": ["beesdoo_product"],
-    "data": ["security/groups.xml", "security/ir.model.access.csv","views/product.xml"],
+    "data": [
+        "security/groups.xml",
+        "security/ir.model.access.csv",
+        "views/product.xml"
+    ],
     "installable": True,
     "application": False,
 }
