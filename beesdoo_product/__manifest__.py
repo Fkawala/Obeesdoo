@@ -1,4 +1,4 @@
-# Copyright 2017 - 2020 BEES coop SCRLfs
+# Copyright 2017 - 2021 BEES coop SCRLfs
 #   - Elouan Lebars <elouan@coopiteasy.be>
 #   - Rémy Taymans <remy@coopiteasy.be>
 #   - Houssine BAKKALI <houssine@coopiteasy.be>
@@ -15,7 +15,7 @@
     "author": "Beescoop - Cellule IT, Coop IT Easy SCRLfs",
     "website": "https://github.com/beescoop/Obeesdoo",
     "category": "Sales",
-    "version": "12.0.1.1.1",
+    "version": "12.0.1.1.2",
     "depends": [
         "beesdoo_base",
         "product",

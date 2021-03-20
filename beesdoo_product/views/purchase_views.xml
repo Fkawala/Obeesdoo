@@ -23,7 +23,7 @@
     <!-- menu item -->
     <menuitem id="menu_purchase_edit_price"
               name="Edit Price"
-              parent="purchase.menu_purchase_root"
+              parent="purchase.menu_procurement_management"
               sequence="100"
               action="purchase_product_edit_price"/>
 
