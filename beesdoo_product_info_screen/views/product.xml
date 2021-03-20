@@ -9,6 +9,11 @@
         <field name="model">product.template</field>
         <field name="arch" type="xml">
             <form string="Products">
+                <header>
+                    <button string="Back To Product List"
+                            name="%(action_product_information)d"
+                            type="action"/>
+                </header>
                 <sheet>
                     <div class="oe_title">
                         <label class="oe_edit_only" for="name" string="Product Name"/>
@@ -17,16 +22,20 @@
                         </h1>
                     </div>
                     <group>
-                        <field name="uom_id"/>
-                        <field name="uom_po_id"/>
-                        <field name="qty_available"/>
-                        <field name="virtual_available"/>
-                        <field name="categ_id"/>
-                        <field name="pos_categ_id"/>
-                        <field name="default_code"/>
-                        <field name="list_price"/>
-                        <!-- - consigne (prix)-->
-                        <field name="main_seller_id"/>
+                        <group>
+                            <field name="uom_id"/>
+                            <field name="uom_po_id"/>
+                            <field name="qty_available"/>
+                            <field name="virtual_available"/>
+                            <field name="categ_id"/>
+                        </group>
+                        <group>
+                            <field name="pos_categ_id"/>
+                            <field name="default_code"/>
+                            <field name="list_price"/>
+                            <!-- - consigne (prix)-->
+                            <field name="main_seller_id"/>
+                        </group>
                     </group>
                 </sheet>
             </form>
@@ -60,6 +69,7 @@
         <field name="view_type">form</field>
         <field name="view_mode">tree,form</field> 
         <field name="search_view_id" ref="product.product_template_search_view"/>
+        <field name="target">main</field>
         <field name="view_id" eval="False" /> 
     </record>
 
